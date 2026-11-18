@@ -6,6 +6,9 @@
 
 A deterministic alpha-beta chess engine packed into a 4 KiB Python entrypoint.
 
+Two practice continuations were prepared offline with Stockfish 19 against the
+public make.fun kit. The entry uses its own search when the move history differs.
+
 ## Run
 
 Python 3.13 with **MAKEFUN_ENV_URL** set by the make.fun trial runner:
